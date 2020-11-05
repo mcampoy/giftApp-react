@@ -27,9 +27,10 @@ const AddCategory = ( { setCategories } ) => {
                 value={inputValue}
                 onChange={ handleInputChange }
                 // autoFocus
-                placeholder="Escribí aquí tu búsqueda y presioná enter"
+                placeholder="Escribí aquí tu búsqueda"
                 />
                 {/* <p>{ inputValue }</p> */}
+                <button className="btnSend" type='submit'><i class="fas fa-search"></i></button>
         </form>
     )
 }
