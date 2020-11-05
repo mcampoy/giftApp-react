@@ -1,2 +1,125 @@
-*{font-family:"Poppins"}body{box-sizing:border-box}form{display:flex;justify-content:center}input{border-radius:4px;border:none;box-shadow:5px 10px 10px rgba(73,73,73,.14),.2px 3px 3px rgba(0,0,0,.18);color:#929292;font-size:1.3rem;padding:1%;width:90%}@media (max-width:424px){input{font-size:.9em}}input:focus,input:hover{box-shadow:10px 10px 20px rgba(0,0,0,.14),0 6px 6px rgba(0,0,0,.18)}hr{margin-top:5%}p{font-size:.4em}h2{color:tomato;font-size:2.5em;padding-left:5%}@media (max-width:424px){h2{font-size:1.8em;padding-left:0;text-align:center}}h3{padding-left:15%}footer{display:flex;justify-content:center}footer p{background-color:#ccc;border-radius:4px;font-size:.9em;text-align:center;margin-top:5%;padding:1%;position:relative;bottom:0;width:80%}.card-grid{display:flex;flex-direction:row;flex-wrap:wrap;margin:0 auto;justify-content:center}.card{align-content:center;border-radius:4px;height:300px;margin:15px;overflow:hidden;width:278px;box-shadow:5px 10px 10px rgba(73,73,73,.14),0 3px 3px rgba(0,0,0,.18)}.card,.card:hover{transition-duration:.5s}.card:hover{box-shadow:10px 10px 20px rgba(0,0,0,.14),0 6px 6px rgba(0,0,0,.18)}.card p{font-size:1rem;margin:0;padding-top:3%;text-align:center;width:278px}.card img{height:200px;width:100%}.loading{font-size:2rem;padding-top:3%;text-align:center}
+* {
+    font-family: "Poppins";
+}
+
+body {
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border-radius: 4px;
+    border: none;
+    box-shadow: 5px 10px 10px rgba(73, 73, 73, .14), .2px 3px 3px rgba(0, 0, 0, .18);
+    color: #929292;
+    font-size: 1.3rem;
+    padding: 1%;
+    width: 90%;
+}
+
+@media (max-width:424px) {
+    input {
+        font-size: .9em;
+        padding:5%;
+    }
+}
+
+input:focus,
+input:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .14), 0 6px 6px rgba(0, 0, 0, .18);
+}
+
+hr {
+    margin-top: 5%;
+}
+
+p {
+    font-size: .4em;
+}
+
+h2 {
+    color: tomato;
+    font-size: 2.5em;
+    padding-left: 5%;
+}
+
+@media (max-width:424px) {
+    h2 {
+        font-size: 1.8em;
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+h3 {
+    padding-left: 15%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    background-color: #ccc;
+    border-radius: 4px;
+    font-size: .9em;
+    text-align: center;
+    margin-top: 5%;
+    padding: 1%;
+    position: relative;
+    bottom: 0;
+    width: 80%;
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card {
+    align-content: center;
+    border-radius: 4px;
+    height: 300px;
+    margin: 15px;
+    overflow: hidden;
+    width: 278px;
+    box-shadow: 5px 10px 10px rgba(73, 73, 73, .14), 0 3px 3px rgba(0, 0, 0, .18)
+}
+
+.card,
+.card:hover {
+    transition-duration: .5s
+}
+
+.card:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .14), 0 6px 6px rgba(0, 0, 0, .18)
+}
+
+.card p {
+    font-size: 1rem;
+    margin: 0;
+    padding-top: 10%;
+    text-align: center;
+    width: 278px
+}
+
+.card img {
+    height: 200px;
+    width: 100%
+}
+
+.loading {
+    font-size: 2rem;
+    padding-top: 3%;
+    text-align: center
+}
+
 /*# sourceMappingURL=main.56f141ab.chunk.css.map */
