@@ -1,10 +1,16 @@
 * {
   font-family: 'Poppins';
-  font-size: 1.3rem;
+  /* font-size: 1.3rem; */
 }
 
 body {
-  padding: 60px;
+  /* padding: 60px; */
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  justify-content: center;
 }
 
 input {
@@ -12,23 +18,25 @@ input {
   border: none;
   box-shadow: 5px 10px 10px rgba(73, 73, 73, 0.14),.2px 3px 3px rgba(0,0,0,0.18);
   color: rgb(146, 146, 146);
-  font-size: 1rem;
+  font-size: 1.3rem;
   padding: 1%;
-  width: 100%;
+  width: 90%;
+}
+
+@media (max-width: 424px) {
+  input {
+    font-size: .9em;
+  }
 }
 
 input:hover, input:focus {
   box-shadow: 10px 10px 20px rgba(0,0,0,0.14),0 6px 6px rgba(0,0,0,0.18);
-  
 }
 
 hr {
   margin-top: 5%;
 }
 
-li {
-  font-size: .8em;
-}
 
 p {
   font-size: .4em;
@@ -36,11 +44,37 @@ p {
 
 h2 {
   color: tomato;
-  font-size: 1.6em;
+  font-size: 2.5em;
+  padding-left: 5%;
+}
+
+@media (max-width: 424px) {
+  h2 {
+    font-size: 1.8em;
+    padding-left: 0%;
+    text-align:center;
+  }
 }
 
 h3 {
   padding-left: 15%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  background-color: #cccccc;
+  border-radius: 4px;
+  font-size: .9em;
+  text-align: center;
+  margin-top: 5%;
+  padding: 1%;
+  position: relative;
+  bottom: 0px;
+  width: 80%;
 }
 
 .card-grid {
@@ -82,8 +116,8 @@ h3 {
   width: 100%;
 }
 
-
-
 .loading {
-  font-size: 1.3rem;
+  font-size: 2rem;
+  padding-top: 3%;
+  text-align: center;
 }

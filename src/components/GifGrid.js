@@ -1,6 +1,7 @@
 import React from 'react';
 import { useFetchGifts } from '../hooks/useFetchGifs';
 import GifGridItem from './GifGridItem';
+import Footer from './Footer';
 
 const GifGrid = ( {category} ) => {
 
@@ -23,6 +24,7 @@ const GifGrid = ( {category} ) => {
                     ))
                 }
             </div>
+            <Footer />
         </>
     )
 }
