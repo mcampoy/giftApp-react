@@ -10,7 +10,7 @@ const GifExpertApp = () => {
 
     return (
         <>
-            <h2>Buscá tus gifs favoritos</h2>
+            <h2>Buscá tus GIFs favoritos</h2>
             <AddCategory setCategories={setCategories}/>
             <hr />
             <div className="wrapper">

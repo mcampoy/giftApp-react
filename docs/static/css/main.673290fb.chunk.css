@@ -1,2 +1,158 @@
-*{font-family:"Poppins"}body{box-sizing:border-box}form{display:flex;justify-content:center;padding:5%;background:#f5f5f5}input{border-radius:4px;border:none;box-shadow:5px 10px 10px rgba(73,73,73,.14),.2px 3px 3px rgba(0,0,0,.18);color:#929292;font-size:1.3rem;padding:1%;width:100%}@media (max-width:424px){input{font-size:.9em;padding-left:5%;width:70%}}input:focus,input:hover{box-shadow:10px 10px 20px rgba(0,0,0,.14),0 6px 6px rgba(0,0,0,.18);outline:none}hr{margin-top:5%}h2{color:tomato;font-size:2.5em;padding:5% 5% 0;background-color:#f5f5f5;margin:0}@media (max-width:424px){h2{text-align:center;font-size:1.8em;padding-left:0}}h3{padding-left:5%;font-size:1.5em;color:tomato}@media (max-width:424px){h3{text-align:center;padding-left:0}}footer{display:flex;justify-content:center}footer p{background-color:#ccc;border-radius:4px;font-size:.9em;text-align:center;margin-top:5%;padding:1%;position:relative;bottom:0;width:80%}.btnSend{border:.1px solid #fff;border-radius:50%;margin-left:3%;background-color:#fff;box-shadow:5px 10px 10px rgba(73,73,73,.14),.2px 3px 3px rgba(0,0,0,.18);font-size:1.3em;font-weight:700;color:tomato;width:80px;height:80px}.btnSend:focus{outline:none}@media (max-width:424px){.btnSend{width:40PX;height:40PX}}.btnSend:hover{background-color:tomato;color:#fff;box-shadow:10px 10px 20px rgba(0,0,0,.14),0 6px 6px rgba(0,0,0,.18)}.card-grid{display:flex;flex-direction:row;flex-wrap:wrap;margin:0 auto;justify-content:center}.card{align-content:center;border-radius:4px;height:200px;margin:15px;overflow:hidden;width:278px;box-shadow:5px 10px 10px rgba(73,73,73,.14),0 3px 3px rgba(0,0,0,.18)}.card,.card:hover{transition-duration:.5s}.card:hover{box-shadow:10px 10px 20px rgba(0,0,0,.14),0 6px 6px rgba(0,0,0,.18)}.card img{height:200px;width:100%}.loading{font-size:2rem;padding-top:3%;text-align:center}
+* {
+    font-family: "Poppins"
+}
+
+body {
+    box-sizing: border-box
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    background: #f5f5f5
+}
+
+input {
+    border-radius: 4px;
+    border: none;
+    box-shadow: 5px 10px 10px rgba(73, 73, 73, .14), .2px 3px 3px rgba(0, 0, 0, .18);
+    color: #929292;
+    font-size: 1.3rem;
+    padding: 1%;
+    width: 100%
+}
+
+@media (max-width:424px) {
+    input {
+        font-size: .9em;
+        padding-left: 5%;
+        width: 70%
+    }
+}
+
+input:focus,
+input:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .14), 0 6px 6px rgba(0, 0, 0, .18);
+    outline: none
+}
+
+hr {
+    margin-top: 5%
+}
+
+h2 {
+    color: tomato;
+    font-size: 2.5em;
+    padding: 5% 5% 0;
+    background-color: #f5f5f5;
+    margin: 0
+}
+
+@media (max-width:424px) {
+    h2 {
+        text-align: center;
+        font-size: 1.8em;
+        padding-left: 0
+    }
+}
+
+h3 {
+    padding-left: 5%;
+    font-size: 1.5em;
+    color: tomato
+}
+
+@media (max-width:424px) {
+    h3 {
+        text-align: center;
+        padding-left: 0
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center
+}
+
+footer p {
+    background-color: #ccc;
+    border-radius: 4px;
+    font-size: .9em;
+    text-align: center;
+    margin-top: 5%;
+    padding: 1%;
+    position: relative;
+    bottom: 0;
+    width: 80%
+}
+
+.btnSend {
+    border: .1px solid #fff;
+    border-radius: 50%;
+    margin-left: 3%;
+    background-color: #fff;
+    box-shadow: 5px 10px 10px rgba(73, 73, 73, .14), .2px 3px 3px rgba(0, 0, 0, .18);
+    font-size: 1.3em;
+    font-weight: 700;
+    color: tomato;
+    width: 80px;
+    height: 80px
+}
+
+.btnSend:focus {
+    outline: none
+}
+
+@media (max-width:424px) {
+    .btnSend {
+        width: 40PX;
+        height: 40PX
+    }
+}
+
+.btnSend:active {
+    background-color: tomato;
+    color: #fff;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .14), 0 6px 6px rgba(0, 0, 0, .18)
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center
+}
+
+.card {
+    align-content: center;
+    border-radius: 4px;
+    height: 200px;
+    margin: 15px;
+    overflow: hidden;
+    width: 278px;
+    box-shadow: 5px 10px 10px rgba(73, 73, 73, .14), 0 3px 3px rgba(0, 0, 0, .18)
+}
+
+.card,
+.card:hover {
+    transition-duration: .5s
+}
+
+.card:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .14), 0 6px 6px rgba(0, 0, 0, .18)
+}
+
+.card img {
+    height: 200px;
+    width: 100%
+}
+
+.loading {
+    font-size: 2rem;
+    padding-top: 3%;
+    text-align: center
+}
+
 /*# sourceMappingURL=main.673290fb.chunk.css.map */
