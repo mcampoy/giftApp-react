@@ -57,14 +57,14 @@ h2 {
   }
 }
 
-h3 {
+h6 {
   padding-left: 5%;
-  font-size: 1.5em;
-  color: tomato;
+  font-size: 1em;
+  color: rgb(121, 117, 117);
 }
 
 @media (max-width: 424px) {
-  h3 {
+  h6 {
     text-align: center;
     padding-left: 0;
   }
@@ -114,8 +114,14 @@ footer p {
 .btnSend:active {
   background-color: tomato;
   color: #ffff;
+}
+
+.btnSend:hover {
+
   box-shadow: 10px 10px 20px rgba(0,0,0,0.14),0 6px 6px rgba(0,0,0,0.18);
 }
+
+
 
 .card-grid {
     display: flex;

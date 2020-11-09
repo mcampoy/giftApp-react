@@ -14,10 +14,10 @@ const AddCategory = ( { setCategories } ) => {
         e.preventDefault();
 
         if(inputValue.trim().length > 2){
-            setCategories(categories => [inputValue, ...categories])
+            // setCategories(categories => [inputValue, ...categories])
+            setCategories( () => [inputValue])
             setInputValue('');
         }
-        // console.log('Submit hecho')
     }
 
     return (
@@ -29,8 +29,7 @@ const AddCategory = ( { setCategories } ) => {
                 // autoFocus
                 placeholder="Escribí aquí tu búsqueda"
                 />
-                {/* <p>{ inputValue }</p> */}
-                <button className="btnSend" type='submit'><i class="fas fa-search"></i></button>
+                <button className="btnSend" type='submit'><i className="fas fa-search"></i></button>
         </form>
     )
 }

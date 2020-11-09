@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <GifGrid /> debe hacer match con el componente 1`] = `
+<Fragment>
+  <h6
+    className="animate__animated animate__fadeIn"
+  >
+     Estos son los resultados sobre "
+    cats
+    " 
+  </h6>
+  <p
+    className=" loading animate__animated animate__flash"
+  >
+    cargando...
+  </p>
+  <div
+    className="card-grid animate__animated"
+  />
+</Fragment>
+`;

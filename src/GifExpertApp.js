@@ -4,9 +4,10 @@ import Footer from './components/Footer';
 import GifGrid from './components/GifGrid';
 
 
-const GifExpertApp = () => {
+const GifExpertApp = ({ defaultCategories = [] }) => {
 
-    const [categories, setCategories] = useState([ 'cats' ]);
+    // const [categories, setCategories] = useState([ 'cats' ]);
+    const [categories, setCategories] = useState( defaultCategories );
 
     return (
         <>
@@ -15,10 +16,10 @@ const GifExpertApp = () => {
             <hr />
             <div className="wrapper">
                 {
-                    categories.map(cat => (
+                    categories.map(category => (
                         <GifGrid 
-                        key={cat}
-                        category={ cat } /> 
+                        key={category}
+                        category={ category } /> 
                     ))
                 }
             </div>
@@ -27,6 +28,5 @@ const GifExpertApp = () => {
     )
 
 }
-
 
 export default GifExpertApp;
